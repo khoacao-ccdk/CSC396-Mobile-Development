@@ -6,7 +6,7 @@ This repository stores the homework that I worked on during Spring 2022 using Ja
 Computer Science Major - DePauw Unviversity
 
 # To open these projects:
-1. Download and install Android Studio
+1. Download and install [Android Studio](https://developer.android.com/studio)
 2. Clone the directories or the whole repo 
 3. Open Android Studio, choose File -> Open 
 4. Each directory contains a separate project to open from
