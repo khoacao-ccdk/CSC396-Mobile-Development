@@ -2,7 +2,7 @@
 This repository stores the homework that I worked on during Spring 2022 using Java in Android Studio
 
 # Author
-Cody Cao 
+Cody Cao \n
 Computer Science Major - DePauw Unviversity
 
 # To open these projects:
