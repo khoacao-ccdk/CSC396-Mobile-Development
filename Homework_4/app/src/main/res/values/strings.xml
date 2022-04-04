@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Attribute Types</string>
+    <array name="education_level">
+        <item>Elementary</item>
+        <item>Middle</item>
+        <item>High</item>
+        <item>University</item>
+    </array>
+</resources>
