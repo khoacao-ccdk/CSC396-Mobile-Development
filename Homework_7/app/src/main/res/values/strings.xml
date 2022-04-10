@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Underrepresented Group</string>
+    <string name="brief_bio">
+        \t Any person who works with Computer Graphics or had a Computer Graphics course in college might not be
+        unfamiliar with Phong Shading algorithm. Born in 1942 in Hanoi, Vietnam and got an engineering degree in
+        France, he then received a Ph.D in University of Utah College of Engineering. Despite being a genius, Phong
+        had a short lifespan. He was soon diagnosed with leukemia, a type of blood cancer. He died in 1975, two years
+        after receiving his Ph.D.
+    </string>
+
+    <string name = "person_early_life">
+        \t Phong was born in Hanoi (French Indochina at that time period). Information regarding his early life is not well-known.
+    </string>
+
+    <string name = "person_education">
+        \t During his early years of education, he attended Lycée Albert Sarraut, a school founded by the French during their
+        colonialism in Vietnam. He then moved to Saigon in 1954, where he attended another school named Lycée Jean Jacques Rousseau.
+        In 1964, Phong moved to France and ettended Grenoble Institute of technology.
+        \n\n
+        \t In 1968, he joined  Institut de Recherche en Informatique et en Automatique (then IRIA) as a Computer Scientist, working with operating systems.
+        Later in 1971, he joined Utah College of Engineering as a research assistant and received Ph.D from this college in 1973.
+    </string>
+
+    <string name = "person_person_accomplishments_1">
+        \t Phong\'s greatest contribution to the Computer Science field has been Phong Reflection model. This model allows computers with less computational power during the 70s to
+        create a more true-to-life model compared to the flat shading model.
+        \n\n
+        \t The idea of Phong Reflection model came from an assignment that required Phong and three other students to port a real life object, in this case, a Volswagen Beetle,
+        into a computer that enbables user to perceive such object at first sight. That was how Phong Shading came around.
+    </string>
+
+    <string name = "person_person_accomplishments_2">
+        \t The ability to create such a shading model that brings an object as close to how it appears in real life requires not only knowledge within Computer Science and Math,
+        but also Biology, especially how human brain perceives and processes shadows.
+    </string>
+
+
+</resources>

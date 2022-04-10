@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView_profile_picture"
+        android:layout_width="157dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bui_tuong_phong"
+        tools:srcCompat="@drawable/bui_tuong_phong"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_national_flag"
+        android:layout_width="157dp"
+        android:layout_height="107dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_profile_picture"
+        app:layout_constraintStart_toStartOf="@+id/imageView_profile_picture"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_profile_picture"
+        app:srcCompat="@drawable/flag_of_vietnam"
+        tools:srcCompat="@drawable/flag_of_vietnam"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Name:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView_profile_picture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Bui Tuong Phong"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_name"
+        app:layout_constraintStart_toEndOf="@+id/textView_name" />
+
+    <TextView
+        android:id="@+id/textView_born"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Born:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView_name"
+        app:layout_constraintTop_toBottomOf="@+id/textView_name" />
+
+    <TextView
+        android:id="@+id/textView_person_date_of_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="December 14, 1942"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_born"
+        app:layout_constraintStart_toEndOf="@+id/textView_born" />
+
+    <TextView
+        android:id="@+id/textView_person_place_of_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autoLink="map"
+        android:text="(Ha Noi, Vietnam)"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView_person_date_of_birth"
+        app:layout_constraintTop_toBottomOf="@+id/textView_person_date_of_birth" />
+
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_person_age"
+        app:layout_constraintStart_toStartOf="@+id/textView_born" />
+
+    <TextView
+        android:id="@+id/textView_person_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="33 years old (deceased)"
+        app:layout_constraintStart_toEndOf="@+id/textView_age"
+        app:layout_constraintTop_toBottomOf="@+id/textView_person_place_of_birth" />
+
+    <TextView
+        android:id="@+id/textView_nationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Nationality:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_national_flag"
+        app:layout_constraintStart_toEndOf="@+id/imageView_national_flag"
+        app:layout_constraintTop_toTopOf="@+id/imageView_national_flag" />
+
+    <TextView
+        android:id="@+id/textView_person_nationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Vietnam"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_nationality"
+        app:layout_constraintStart_toEndOf="@+id/textView_nationality" />
+
+    <TextView
+        android:id="@+id/textView_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Bio:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imageView_national_flag"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_national_flag" />
+
+    <TextView
+        android:id="@+id/textView_person_bio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/brief_bio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_bio" />
+
+    <Button
+        android:id="@+id/button_biography"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="70dp"
+        android:text="Biography"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_more_info"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_more_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:autoLink="web"
+        android:text="More Info"
+        android:textAllCaps="false"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_biography"
+        app:layout_constraintEnd_toStartOf="@+id/button_donate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_biography" />
+
+    <Button
+        android:id="@+id/button_donate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="Donate"
+        android:textAllCaps="false"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_more_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_more_info" />
+
+    <TextView
+        android:id="@+id/textView_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Location:"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView_age"
+        app:layout_constraintTop_toBottomOf="@+id/textView_age" />
+
+    <TextView
+        android:id="@+id/textView_person_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:autoLink="map"
+        android:text="Santa Ana Cemetery"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView_location"
+        app:layout_constraintStart_toEndOf="@+id/textView_location" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
