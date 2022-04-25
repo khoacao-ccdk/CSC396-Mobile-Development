@@ -3,7 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:descendantFocusability="blocksDescendants"
-    android:elevation="1dp"
     android:focusable="false"
     android:focusableInTouchMode="false"
     android:orientation="vertical">
@@ -37,47 +36,28 @@
         android:id="@+id/radioGroup_rating_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="false"
         android:descendantFocusability="blocksDescendants"
-        android:elevation="0dp"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
         android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radio_breakfast_display"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:clickable="false"
-            android:contextClickable="false"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:linksClickable="false"
-            android:longClickable="false"
+            android:enabled="false"
             android:text="Breakfast" />
 
         <RadioButton
             android:id="@+id/radio_lunch_display"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="false"
-            android:contextClickable="false"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:linksClickable="false"
-            android:longClickable="false"
+            android:enabled="false"
             android:text="Lunch" />
 
         <RadioButton
             android:id="@+id/radio_dinner_display"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:clickable="false"
-            android:contextClickable="false"
-            android:focusable="false"
-            android:focusableInTouchMode="false"
-            android:linksClickable="false"
-            android:longClickable="false"
+            android:enabled="false"
             android:text="Dinner" />
     </RadioGroup>
 
